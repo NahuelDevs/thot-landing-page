@@ -397,3 +397,20 @@ h3 {
     border-radius: 8px;
     padding: 40px 33px 23px;
 }
+
+.sobre-nosotros {
+    background-color: #f4f4f4;
+    padding: 2rem;
+    text-align: center;
+}
+
+.sobre-nosotros h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.sobre-nosotros p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
