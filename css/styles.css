@@ -397,3 +397,13 @@ h3 {
     border-radius: 8px;
     padding: 40px 33px 23px;
 }
+
+/* Banner Pago */
+
+.banner {
+    background-image: url(../img/BANNER-PAGOS-NUEVO-2048x251.jpg);
+    height: 15rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 3rem;
+}
