@@ -12,15 +12,12 @@ El objetivo es replicar su diseño y estructura para fortalecer conocimientos en
 
 - ✅ HTML5  
 - ✅ CSS3  
-- ✅ Flexbox & Grid  
-- ✅ Responsive Design
 
 ---
 
 ## 🎯 Objetivo del proyecto
 
 - Reforzar habilidades de maquetación y estructura web.
-- Aplicar buenas prácticas en diseño adaptable a diferentes dispositivos.
 - Simular el flujo de trabajo real clonando un sitio existente.
 
 ---
@@ -32,11 +29,4 @@ El objetivo es replicar su diseño y estructura para fortalecer conocimientos en
 
 ---
 
-## 👀 Vista previa
-
-> Próximamente podés verlo online en Netlify o GitHub Pages (si lo subís ahí).  
-> También podés abrir el archivo `index.html` localmente para ver el resultado.
-
----
-
-📁 Repositorio hecho con ❤️ por [Nahuel Abreu](https://github.com/nahuelabreu)
+📁 Repositorio hecho con ❤️ por [Nahuel Abreu](https://github.com/NahuelDevs)
