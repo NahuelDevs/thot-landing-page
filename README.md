@@ -15,3 +15,5 @@ Flexbox / Grid
 Diseño responsivo
 
 Este proyecto no tiene fines comerciales y fue desarrollado con fines educativos únicamente.
+
+![Banner Thot Computación](Previsualizacion.png)
