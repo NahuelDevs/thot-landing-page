@@ -1,0 +1,374 @@
+:root {
+    --fuentePrincipal: "Poppins", sans-serif;
+    --primario: #f37d06;
+    --negro: #000000;
+    --gris: #777777;
+    --borde: #e7e7e7;
+}
+
+html {
+    box-sizing: border-box;
+    /* Para que el border/bading no afecte el ancho de los elementos */
+    font-size: 62.5%
+        /* 1 rem = 10px */
+}
+
+*,
+*:before,
+*after {
+    box-sizing: inherit;
+}
+
+.h3 {
+    margin: 0 0;
+}
+
+body {
+    font-family: var(--fuentePrincipal);
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+/* GLOBALES */
+
+img {
+    max-width: 100%;
+}
+
+.no-margin {
+    margin: 0;
+}
+
+.barra {
+    padding: 5.3rem;
+}
+
+/* Logo */
+
+.barra {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navegacion {
+    display: flex;
+    flex-direction: row;
+}
+
+.logo {
+    width: 11rem;
+    margin: 1px 10rem;
+    padding-left: 8rem;
+}
+
+
+/* Buscador */
+#Buscador {
+    background: url(https://cdn0.iconfinder.com/data/icons/slim-square-icons-basics/100/basics-19-32.png) no-repeat 0px 5px;
+    background-size: 35px;
+    background-position: right;
+    background-position-x: 750px;
+    width: 600px;
+    font-family: var(--fuentePrincipal);
+    font-size: 1.4rem;
+    border-radius: 5px;
+    border: 2px solid var(--primario);
+    /* Borde naranja sin sombra */
+    padding: 15px 15px 15px 20px;
+    outline: none;
+    box-shadow: none;
+    /* Asegura que no haya sombra */
+}
+
+
+.user__imagen {
+    width: 35px;
+    padding: 0px 10px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.user__imagen:hover {
+    transform: scale(1.1);
+    /* Agranda un 10% sin afectar los elementos vecinos */
+}
+
+.div_ingresar-registrarse {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 15rem;
+}
+
+
+/* Textos de Ingresar / Registrarme */
+.hola {
+    color: var(--gris);
+}
+
+.div_textos p,
+h3 {
+    align-items: center;
+    margin: 1px 0;
+    line-height: 0.7;
+    font-size: 1.5rem;
+}
+
+/* Carrito */
+
+.div_textos-carrito p,
+h3 {
+    align-items: center;
+    margin: 0 0;
+    line-height: 1.2;
+    font-size: 1.5rem;
+    padding-right: 4rem;
+}
+
+.carrito {
+    margin-top: 4px;
+    color: var(--gris);
+}
+
+.carrito__imagen {
+    width: 3.6rem;
+}
+
+.balance {
+    color: var(--primario);
+}
+
+.div_carrito {
+    display: flex;
+    gap: 1rem;
+}
+
+/* Boton Categoria */
+
+.header-segundo {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 2.3rem 10rem;
+    gap: 2rem;
+    border-radius: 5px;
+    border: 2px solid var(--borde);
+    /* Borde naranja sin sombra */
+    padding: 7px 110px 5px 215px;
+}
+
+.boton-categoria {
+    line-height: 1.2;
+}
+
+.menu {
+    width: 3.5rem;
+}
+
+.texto-categoria {
+    font-size: 1.3rem;
+    align-items: center;
+    margin: 0 0;
+    line-height: 1.2;
+}
+
+.texto-categoria:hover {
+    transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+    color: var(--primario);
+}
+
+
+/* Boton Arma tu PC */
+
+.boton-arma-tu-pc {
+    display: flex;
+    align-items: row;
+    gap: 1rem;
+    /* Separacion Entre los elementos */
+}
+
+
+.imagen-pc {
+    width: 4rem;
+    transition: transform 0.2s ease-in-out;
+}
+
+
+.imagen-pc:hover {
+    transform: scale(1.1);
+    /* Agranda un 10% sin afectar los elementos vecinos */
+}
+
+.texto-pc {
+    display: flex;
+    padding: 0;
+}
+
+.texto-pc:hover {
+    color: var(--primario);
+    transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+}
+
+.texto-pc h3 {
+    align-items: center;
+    margin: 0 0;
+    line-height: 3.3;
+    font-size: 1.3rem;
+}
+
+
+/* Botones Derecha */
+
+.botones-derecha-fin {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 0.76rem;
+    margin-left: 75rem;
+}
+
+
+.imagen-descuento {
+    width: 2.7rem;
+    transition: transform 0.2s ease-in-out;
+}
+
+.imagen-descuento:hover {
+    transform: scale(1.1);
+}
+
+.texto-oferta {
+    align-items: row;
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+}
+
+.texto-oferta:hover {
+    transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+    color: var(--primario);
+}
+
+/* Ubicacion */
+
+.elementos-ubicacion a {
+    display: inline-flex;
+    align-items: center;
+    vertical-align: middle;
+    margin-bottom: 0.5rem;
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.2s ease-in-out;
+}
+
+.elementos-ubicacion a:hover {
+    transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+    color: var(--primario);
+}
+
+.texto-ubicacion {
+    font-size: 1.6rem;
+}
+
+
+.imagen-ubicacion {
+    width: 2.9rem;
+    transition: transform 0.2s ease-in-out;
+}
+
+.imagen-ubicacion:hover {
+    transform: scale(1.1);
+}
+
+/* Banner */
+
+.header-medio {
+    background-image: url(../img/GIGABYTE-RTX-9060XT-BANNER-DESKTOP-1-scaled.jpg);
+    height: 46rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Botones Medianos */
+
+.categorias {
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #f2f2f2;
+    padding: 2rem;
+}
+
+.categoria {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 250px;
+    height: 160px;
+    position: relative;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.categoria:hover {
+    transform: scale(1.05);
+}
+
+.categoria .contenido {
+    position: relative;
+    z-index: 2;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    /* centra verticalmente */
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.categoria p {
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: left;
+    margin: 0;
+    max-width: 100px;
+}
+
+.categoria img {
+    position: absolute;
+    right: 10px;
+    width: 130px;
+    z-index: 2;
+}
+
+.imagen-notebook {
+    position: absolute;
+    bottom: 2px;
+    right: -9px !important;
+    width: 150px !important;
+}
+
+.categoria::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: orange;
+    clip-path: ellipse(60% 60% at 100% 100%);
+    z-index: 1;
+}
+
+/* Destacados */
+.contenedor-destacados {
+    display: flex;
+    padding: 1rem 23rem;
+}
+.destacados h3 {
+    font-size: 3rem;
+}
+
+.contenedor-destacados-linea {
+    border-radius: 5px;
+    border: 2px solid var(--);
+}
