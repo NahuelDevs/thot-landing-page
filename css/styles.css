@@ -4,6 +4,8 @@
     --negro: #000000;
     --gris: #777777;
     --borde: #e7e7e7;
+    --bordegris: #a7a7a7;
+
 }
 
 html {
@@ -388,14 +390,16 @@ h3 {
     line-height: 1.3;
 }
 .imagen-destacado h3 {
-    font-size: 2rem;
+    font-size: 1rem;
     color: var(--primario);
 }
 
 .cuadrado-destacados-linea {
+    background-color: white;
     border: 2px solid #ee8379;
     border-radius: 8px;
     padding: 40px 33px 23px;
+    margin-top: 2rem;
 }
 
 /* Banner Pago */
@@ -405,6 +409,43 @@ h3 {
     height: 15rem;
     background-size: cover;
     background-repeat: no-repeat;
-    margin-top: 3rem;
+    margin: 5rem 0
+}
+
+/* Categoria Ofertas */
+.destacados h3 {
+    font-size: 2.5rem;
+}
+.imagen-ofertas {
+    width: 20rem;
+}
+.imagen-ofertas img {
+    width: 20rem;
+}
+.imagen-ofertas a {
+    margin: 0;
+    font-size: 1.5rem;
+    color: inherit;
+    text-decoration: none;
+    line-height: 1.3;
+}
+.imagen-ofertas h3 {
+    font-size: 2rem;
+    color: var(--primario);
+    line-height: 0;
+}
+.imagen-ofertas h4 {
+    font-size: 1.5rem;
+    color: var(--bordegris);
+    text-decoration: line-through;
+    line-height: 0;
+}
+
+.cuadrado-destacados-linea {
+    background-color: white;
+    border: 2px solid #ee8379;
+    border-radius: 8px;
+    padding: 40px 33px 38px;
+    margin-top: 2rem;
 }
 
