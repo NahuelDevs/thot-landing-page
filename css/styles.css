@@ -95,11 +95,18 @@ img {
     /* Agranda un 10% sin afectar los elementos vecinos */
 }
 
-.div_ingresar-registrarse {
+.div_ingresar-registrarse  {
     display: flex;
     flex-direction: row;
     align-items: center;
     margin-right: 15rem;
+    text-decoration: none;
+    color: inherit;
+}
+.ingresar_registrarme a {
+    text-decoration: none;
+    color: inherit;
+    color: var(--negro);
 }
 
 
