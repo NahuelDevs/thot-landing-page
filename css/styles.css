@@ -456,3 +456,189 @@ h3 {
     margin-top: 2rem;
 }
 
+/** Footer **/
+.footer {
+    display: flex;
+    padding: 2rem 23.1rem;
+    gap: 10rem;
+
+}
+
+.footer-texto a {
+    font-size: 1.3rem;
+    color: var(--gris);
+    text-decoration: none;
+}
+.footer-texto a:hover {
+    color: var(--primario);
+}
+
+.footer-impuestos p {
+    font-size: 1.3rem;
+    color: var(--gris);
+}
+
+.footer-texto-imagenes p {
+    font-size: 1.3rem;
+    color: var(--gris);
+}
+
+.footer-texto-nuestra-redes {
+    
+}
+
+/* === RESPONSIVE === */
+
+/* Ajustes para pantallas menores a 1200px */
+@media (max-width: 1200px) {
+
+    .barra {
+        flex-direction: column;
+        align-items: center;
+        padding: 2rem 1rem;
+    }
+
+    .logo {
+        padding-left: 0;
+        margin: 0;
+    }
+
+    .buscador {
+        width: 90%;
+        margin-top: 1rem;
+    }
+
+    #Buscador {
+        width: 100%;
+        background-position-x: 95%;
+    }
+
+    .navegacion {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .div_ingresar-registrarse {
+        margin-right: 0;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+
+    .div_carrito {
+        justify-content: center;
+    }
+
+    .header-segundo {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 2rem;
+    }
+
+    .botones-derecha-fin {
+        margin-left: 0;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .contenedor-destacados {
+        padding: 2rem 4rem;
+    }
+
+    .catalogo-destacados {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .footer {
+        flex-direction: column;
+        padding: 2rem;
+        gap: 3rem;
+    }
+}
+
+
+
+/* Ajustes para pantallas menores a 768px (celulares) */
+@media (max-width: 768px) {
+
+    .logo {
+        width: 9rem;
+    }
+
+    .buscador {
+        width: 100%;
+    }
+
+    .barra,
+    .header-segundo {
+        padding: 1.5rem 1rem;
+    }
+
+    .categorias {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .categoria {
+        width: 90%;
+    }
+
+    .footer {
+        gap: 2rem;
+        text-align: center;
+    }
+
+    .footer-texto,
+    .footer-impuestos,
+    .footer-texto-imagenes {
+        width: 100%;
+    }
+
+    .imagen-ofertas,
+    .imagen-destacados {
+        width: 100%;
+        text-align: center;
+    }
+
+    .imagen-ofertas img,
+    .imagen-destacados img {
+        width: 100%;
+        max-width: 300px;
+    }
+}
+
+@media (max-width: 768px) {
+    .div_ingresar-registrarse {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 0.5rem;
+        width: 100%;
+    }
+
+    .div_textos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        line-height: 1.1;
+    }
+
+    .div_textos p,
+    .div_textos h3 {
+        font-size: 1.4rem;
+        text-align: center;
+        margin: 0;
+    }
+
+    .user__imagen {
+        width: 28px;
+        height: auto;
+        padding: 0;
+    }
+}   
+
+
+
